@@ -49,8 +49,6 @@ Copy the repo into your local machine.
 	 
 ##### Sample Reports On Success And Failure:
 
-![alt text](https://github.com/egalapatireshma/ZooplusAssessment/blob/main/target/SampleReports/Screenshot%202022-05-04%20at%204.59.35%20PM.png)
+![alt text](https://github.com/egalapatireshma/MytheresaAssessment/blob/main/target/SampleReports/Screenshot%202022-05-08%20at%2010.19.09%20PM.png)
 
-![alt text](https://github.com/egalapatireshma/ZooplusAssessment/blob/main/target/SampleReports/Screenshot%202022-05-04%20at%204.59.02%20PM.png)
-
-![alt text](https://github.com/egalapatireshma/ZooplusAssessment/blob/main/target/SampleReports/Screenshot%202022-05-04%20at%204.59.11%20PM.png)
+![alt text](https://github.com/egalapatireshma/MytheresaAssessment/blob/main/target/SampleReports/Screenshot%202022-05-08%20at%2011.32.57%20PM.png)
