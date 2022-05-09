@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-08T17:43:44.134Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10074000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Validate all the links available on webpage and logging into the account",
+        "description": "",
+        "id": "this-feature-is-to-test-the-mytheresa-men-s-collection-page;validate-all-the-links-available-on-webpage-and-logging-into-the-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 239000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "appHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 717000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch mytheresa page and validate page loaded successfully",
+            "match": {
+              "location": "stepDefinitions.MyTheresaStepDefinition.launchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User validates Men is selected under gender categories",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Men",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.MyTheresaStepDefinition.validateGenderCategorySelected(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 936025000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gets all the links available in the web page and validates response codes",
+            "match": {
+              "location": "stepDefinitions.MyTheresaStepDefinition.getAllLinksInWebPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79894000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on my account button",
+            "match": {
+              "location": "stepDefinitions.MyTheresaStepDefinition.clickOnMyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3813000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters reshmaegalapati@maildrop.cc and zipsRules1 to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reshmaegalapati@maildrop.cc",
+                  "offset": 12
+                },
+                {
+                  "val": "zipsRules1",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.MyTheresaStepDefinition.loginToTheAccount(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6218000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User validates the Reshma Test and reshmaegalapati@maildrop.cc login information",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reshma Test",
+                  "offset": 19
+                },
+                {
+                  "val": "reshmaegalapati@maildrop.cc",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.MyTheresaStepDefinition.validateAccountInformationt(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to test the MyTheresa Men\u0027s collection page",
+    "description": "",
+    "id": "this-feature-is-to-test-the-mytheresa-men-s-collection-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MyTheresa.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1,037.414">
+<testcase classname="This feature is to test the MyTheresa Men's collection page" name="Validate all the links available on webpage and logging into the account" time="1,037.174">
+<system-out><![CDATA[Given Launch mytheresa page and validate page loaded successfully...........passed
+Then User validates Men is selected under gender categories.................passed
+And User gets all the links available in the web page and validates response codes.passed
+When User clicks on my account button.......................................passed
+And User enters reshmaegalapati@maildrop.cc and zipsRules1 to login.........passed
+Then User validates the Reshma Test and reshmaegalapati@maildrop.cc login information.passed
+]]></system-out>
+</testcase>
+</testsuite>
